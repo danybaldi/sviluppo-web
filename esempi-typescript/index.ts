@@ -20,8 +20,8 @@ interface Messaggio {
 }
 
 function inviaMessaggio(msg:Messaggio){
-    alert(msg.email);
-    alert(msg.messaggio);
+    //alert(msg.email);
+    //alert(msg.messaggio);
 }
 
 inviaMessaggio({email:"daniele@it",messaggio:"testo"});
@@ -29,7 +29,7 @@ inviaMessaggio({email:"daniele@it",messaggio:"testo"});
 class Persona {
     name: string;
     surname: string;
-    constructor(n,s){
+    constructor(n:string,s:string){
         this.name = n;
         this.surname = s;
     }
@@ -42,3 +42,5 @@ namespace myNamespace{
     var pippo = 'a';
     export function myfunction(){ alert('pippo')}
 }
+
+enum DAYS {MON,TUE,WEN,THU,FRI,SAT,SUN};

@@ -19,7 +19,7 @@ var Lesson = /** @class */ (function () {
     }
     return Lesson;
 }());
-exports.default = Lesson;
+exports.Lesson = Lesson;
 var VideoLesson = /** @class */ (function (_super) {
     __extends(VideoLesson, _super);
     function VideoLesson(len, type) {

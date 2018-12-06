@@ -1,4 +1,4 @@
-export default class Lesson {
+export class Lesson {
     length:number
     private description?:string;
 

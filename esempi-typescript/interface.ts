@@ -33,3 +33,4 @@ function showUser3(user:IUser3){
 }
 
 showUser3({name:'Daniele',surname:'Baldi',title:'Engineer',age:41}); 
+
